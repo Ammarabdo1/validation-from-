@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Data
+            </legend>
+            <div class="allInputs">
+                <div>
+                    <input class="input" type="text" placeholder="First Name" name="name1" required>
+                    <input class="input" type="text" placeholder="second Name" name="name2" required>
+                    <input class="input" type="email" placeholder="Your Email" name="Email" required>
+                    <input class="input" type="password" placeholder="Your Password" name="Pass" required>
+                    <input class="input" type="password" placeholder="re-Password" name="re-Pass" required>
+            
+                    <label class="male" for="male">male</label>
+                    <input type="radio" name="radio" value="male" id="male" required>
+            
+                    <label for="female">female</label>
+                    <input type="radio" name="radio" value="female" id="female" required>
+            
+                    <label for="Custom">Custom</label>
+                    <input type="radio" name="radio" value="Custom" id="Custom" required>
+            
+                    <div class="checkbox">
+                        <label for="Student">Student</label>
+                        <input type="checkbox" name="jop" value="Student" id="Student">
+                
+                        <label for="Teacher">Teacher</label>
+                        <input type="checkbox" name="jop" value="Teacher" id="Teacher">
+                                    
+                    </div>
+
+                    <select class="input" name="grope" id="">
+                        <dl>
+        
+                            <optgroup label="Grope1">
+                                <option value="option 1.1">option 1.1</option>
+                                <option value="option 1.2">option 1.2</option>
+                            </optgroup>
+        
+                            <optgroup label="Grope2">
+                                <option value="option 1.1">option 2.1</option>
+                                <option value="option 1.2">option 2.2</option>
+                            </optgroup>
+        
+                        </dl>
+                        
+                    </select>
+        
+                    <input class="myinput" type="submit">
+                </div>
+    
+
+    
+            </div>
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+</html>
